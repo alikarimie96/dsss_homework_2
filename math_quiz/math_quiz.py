@@ -56,7 +56,7 @@ def math_quiz():
                 print(f"Wrong answer. The correct answer is {ANSWER}.")
 
         except:
-            print("Wrong input")
+            print("Wrong input.")
     print(f"\nGame over! Your score is: {score}/{math.floor(totalQuestions)}")
 
 if __name__ == "__main__":
